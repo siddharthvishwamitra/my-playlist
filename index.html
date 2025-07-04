@@ -13,7 +13,7 @@
   <!-- Filters -->
   <div class="filter-grid">
   <div>
-    <input type="text" id="search" placeholder="Search song" />
+    <input type="text" id="search" placeholder="Search" />
     <select id="languageFilter">
       <option value="">All Languages</option>
     </select>
@@ -147,7 +147,7 @@ function renderList() {
     cover.src = `/data/album/${img}`;
     cover.alt = album;
     cover.className = "cover";
-    cover.onerror = () => { cover.src = "/data/img/default.png"; };
+    cover.onerror = () => { cover.src = "/data/img/default.jpg"; };
     
     const info = document.createElement("div");
     info.className = "album-info";
