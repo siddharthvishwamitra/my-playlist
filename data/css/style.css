@@ -135,10 +135,6 @@ input {
   width: 100%;
 }
 
-input, select {
-  margin: 0px;
-}
-
 .filter-grid > div {
   display: flex;
   flex-wrap: wrap;
@@ -149,5 +145,24 @@ input, select {
 .filter-grid > div > button {
   flex: 0 0 calc(50% - 5px);
   box-sizing: border-box;
+}
+
+.filter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-grid input,
+.filter-grid select,
+.filter-grid button {
+  flex: 1 1 48%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
 }
 }
