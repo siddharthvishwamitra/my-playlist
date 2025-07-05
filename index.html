@@ -7,10 +7,8 @@
   <link rel="stylesheet" href="data/css/style.css">
 </head>
 <body>
-  <h2>My Playlist</h2>
-  <!-- Loader -->
+  <div class="site-title"><img src="data/img/music.png" alt="Music"><span> My Playlist</span></div>
   <div id="loader" class="loader"></div>
-  <!-- Filters -->
   <div class="filter-grid">
   <div>
     <input type="text" id="search" placeholder="Search" />
@@ -29,14 +27,13 @@
     <button onclick="applyFilters()">Apply</button>
   </div>
 </div>
-  <!-- Song List -->
-  <div class="song-list" id="songList"></div>
 
-  <!-- Pagination -->
+  <div class="song-list" id="songList"></div>
+  
   <div class="pagination">
-    <button onclick="prevPage()"><img src="data/img/prev-icon.png" width="20px"></button>
+    <button onclick="prevPage()"><img src="data/img/prev-icon.png" alt="Prev" width="20px"></button>
     <span id="pageInfo">Page 1 of 1</span>
-    <button onclick="nextPage()"><img src="data/img/next-icon.png" width="20px"></button>
+    <button onclick="nextPage()"><img src="data/img/next-icon.png" alt="Next" width="20px"></button>
     <input type="number" id="jumpPage" placeholder="Jump to" min="1" max="99" />
     <button onclick="jumpToPage()" id="jumpBtn" title="">Go</button>
   </div>
@@ -60,7 +57,7 @@ fetch("data/songs.json")
   .then(json => {
     data = json;
     document.getElementById("loader").style.display = "none";
-    applyFilters(true); // initial load
+    applyFilters(true);
     populateFilters(data);
   })
   .catch(err => {
@@ -202,6 +199,5 @@ function jumpToPage() {
   }
 }
 </script>
-
 </body>
 </html>

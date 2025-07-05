@@ -14,6 +14,7 @@
     input, select {
       padding: 6px;
       margin: 5px;
+      border: 2px solid #ccc;
       outline-color: #000;
       border-radius: 4px;
       font-family: Inter;
@@ -165,4 +166,21 @@ input {
   text-overflow: ellipsis;
   margin: 0;
 }
+}
+
+.site-title {
+  border-bottom: 1px solid #e8e8e8;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px;
+  margin: 0px 0px 8px 0px;
+}
+
+.site-title img {
+  width: 30px;
+}
+
+.site-title img, span {
+  vertical-align: middle;
 }
