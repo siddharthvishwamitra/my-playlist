@@ -70,7 +70,7 @@
     ["Tumhare Siva", "Anuradha Paudwal, Udit Narayan"]
   ]],
   ["Sirf Tum", "Hindi", "1999", "sirf-tum.jpg", [
-    ["Ek Mulaqat Zaroori Hai", "Ameen Sabri", "Fareed Sabri"],
+    ["Ek Mulaqat Zaroori Hai", "Ameen Sabri, Fareed Sabri"],
     ["Panchhi Sur Mein Gaate", "Udit Narayan"],
     ["Pehli Pehli Baar", "Kumar Sanu, Alka Yagnik"],
     ["Dilbar Dilbar", "Alka Yagnik"]
@@ -83,7 +83,7 @@
   ["Sparkle (movie ver.)", "RADWIMPS"],
   ["Zenzenzense (movie ver.)", "RADWIMPS"]
   ]],
-  ["Tetsuya Takeda", "Japanese", "Singer", "tetsuya-takeda.jpg", [
+  ["Tetsuya Takeda", "Japanese", "Artist", "tetsuya-takeda.jpg", [
   ["Shounen Ki", "Tetsuya Takeda"],
   ["Ten made todoke", "Tetsuya Takeda"],
   ["Kumo ga yuku no wa", "Tetsuya Takeda"],
@@ -92,5 +92,31 @@
   ]],
   ["OFFICIAL HIGE DANDISM", "Japanese", "Band", "hige-dandism.jpg", [
   ["Pretender", "OFFICIAL HIGE DANDISM"]
+  ]],
+  ["Ed Sheeran", "English", "Artist", "ed-sheeran.jpg", [
+  ["Shape of You", "Ed Sheeran"],
+  ["Galway Girl", "Ed Sheeran"],
+  ["Perfect", "Ed Sheeran"],
+  ["Thinking Out Loud", "Ed Sheeran"],
+  ["Don't (explicit)", "Ed Sheeran"],
+  ["Bad Habits", "Ed Sheeran"],
+  ["Cold Coffee", "Ed Sheeran"],
+  ["The A Team", "Ed Sheeran"],
+  ["Happier", "Ed Sheeran"]
+  ]],
+  ["Lewis Capaldi", "English", "Artist", "lewis-capaldi.jpg", [
+  ["Someone You Loved", "Lewis Capaldi"],
+  ["Before You Go", "Lewis Capaldi"],
+  ["Grace", "Lewis Capaldi"]
+  ]],
+  ["Justin Bieber", "English", "Artist", "justin-bieber.jpg", [
+  ["Sorry", "Justin Bieber"],
+  ["Never Let You Go", "Justin Bieber"],
+  ["Believe", "Justin Bieber"],
+  ["Mistletoe", "Justin Bieber"],
+  ["What Do You Mean", "Justin Bieber"],
+  ["As Long As You Love Me (ft. Big Sean)", "Justin Bieber"],
+  ["One Less Lonely Girl", "Justin Bieber"],
+  ["Eenie Meenie", "Justin Bieber, Sean Kingston"]
   ]]
 ]
