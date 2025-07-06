@@ -65,11 +65,21 @@
     ["Tu Zaroori", "Shaarib Toshi, Sunidhi Chauhan, Sharib Shabri"]
   ]],
   ["Mongol800", "Japanese", "Band", "mongol800.jpg", [
-    ["Chiisana Koi no Uta", ""]
+    ["Chiisana Koi no Uta", "Mongol800"]
   ]],
   ["RADWIMPS", "Japanese", "Band", "radwimps.jpg", [
-  ["Suzume", ""],
-  ["Sparkle (movie ver.)", ""],
-  ["Zenzenzense (movie ver.)", ""]
-]]
+  ["Suzume", "RADWIMPS"],
+  ["Sparkle (movie ver.)", "RADWIMPS"],
+  ["Zenzenzense (movie ver.)", "RADWIMPS"]
+  ]],
+  ["Tetsuya Takeda", "Japanese", "Singer", "tetsuya-takeda.jpg", [
+  ["Shounen Ki", "Tetsuya Takeda"],
+  ["Ten made todoke", "Tetsuya Takeda"],
+  ["Kumo ga yuku no wa", "Tetsuya Takeda"],
+  ["Suen", "Tetsuya Takeda"],
+  ["Toki no tabibito", "Tetsuya Takeda"]
+  ]],
+  ["OFFICIAL HIGE DANDISM", "Japanese", "Band", "hige-dandism.jpg", [
+  ["Pretender", "OFFICIAL HIGE DANDISM"]
+  ]]
 ]
