@@ -19,6 +19,10 @@
       border-radius: 4px;
       font-family: Inter;
       font-weight: 400;
+      width: 155px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
 
     button {
@@ -30,7 +34,7 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      font-weight: 700;
+      font-weight: 600;
       font-family: Inter;
     }
 
