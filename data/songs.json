@@ -118,5 +118,31 @@
   ["As Long As You Love Me (ft. Big Sean)", "Justin Bieber"],
   ["One Less Lonely Girl", "Justin Bieber"],
   ["Eenie Meenie", "Justin Bieber, Sean Kingston"]
+  ]],
+  ["Raaz", "Hindi", "2002", "raaz.jpg", [
+    ["Aapke Pyaar Mein", "Alka Yagnik"],
+    ["Jo Bhi Kasmein", "Alka Yagnik, Udit Narayan"],
+    ["Main Agar Saamne", "Abhijeet, Alka Yagnik"],
+    ["Itna Mein Chaahoon", "Alka Yagnik, Udit Narayan"],
+    ["Kitna Pyaara Hai", "Alka Yagnik, Udit Narayan"]
+  ]],
+  ["Raaz 2", "Hindi", "2009", "raaz-2.jpg", [
+    ["Maahi", "Sharib Toshi"],
+    ["Soniyo", "Raju Singh, Sonu Nigam, Shreya Ghoshal"]
+  ]],
+  ["Raaz 3", "Hindi", "2012", "raaz-3.jpg", [
+    ["Deewana Kar Raha Hai", "Javed Ali"],
+    ["Rafta Rafta", "KK"]
+  ]],
+  ["Raaz Reboot", "Hindi", "2016", "raaz-reboot.jpg", [
+    ["Lo Maan Liya", "Arijit Singh"],
+    ["Raaz Aankhein Teri", "Arijit Singh"],
+    ["Yaad Hai Na", "Arijit Singh"],
+    ["Hummein Tummein Jo Tha", "Papon, Palak Muchhal"],
+    ["O Meri Jaan", "KK"]
+  ]],
+  ["Do Lafzon Ki Kahani", "Hindi", "2016", "dlkk.jpg",[
+    ["Kuch To Hai", "Armaan Malik"],
+    ["Jeena Marna", "Altamash Faridi"]
   ]]
 ]
