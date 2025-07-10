@@ -76,7 +76,8 @@ function populateFilters(data) {
   const albums = [...new Set(data.map(d => d[0]))];
   albums.forEach(a => albumFilter.innerHTML += `<option value="${a}">${a}</option>`);
   
-  const years = [...new Set(data.map(d => d[2]))].sort();
+  const years = [...new Set(data.map(d => String(d[2])))]
+  .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
   years.forEach(y => yearFilter.innerHTML += `<option value="${y}">${y}</option>`);
   
   const singerSet = new Set();
