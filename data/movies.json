@@ -1,0 +1,26 @@
+[
+  [
+    "1920 Evil Returns",
+    "Hindi",
+    2012,
+    "1920-evil-returns.jpg",
+    {
+      "director": "Bhushan Patel",
+      "cast": ["Aftab Shivdasani", "Tia Bajpai"],
+      "genre": ["Horror", "Thriller"],
+      "rating": "6.0"
+    }
+  ],
+  [
+    "Haunted",
+    "Hindi",
+    2011,
+    "haunted.jpg",
+    {
+      "director": "Vikram Bhatt",
+      "cast": ["Mahakshay Chakraborty", "Tia Bajpai"],
+      "genre": ["Horror", "Romance"],
+      "rating": "6.3"
+    }
+  ]
+]

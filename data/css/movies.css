@@ -1,0 +1,234 @@
+@font-face {
+  font-family: Inter;
+  src: url(../font/Inter.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 8px;
+  background: #f9f9f9;
+  font-family: Inter;
+}
+
+/* =====================
+   FORM ELEMENTS
+===================== */
+
+input,
+select {
+  padding: 4px;
+  margin: 5px;
+  border: 1.6px solid #ccc;
+  outline-color: #000;
+  border-radius: 4px;
+  font-family: Inter;
+  font-weight: 400;
+  width: 155px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+button {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  padding: 5px 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-family: Inter;
+  cursor: pointer;
+}
+
+button img {
+  display: block;
+}
+
+/* =====================
+   SITE TITLE
+===================== */
+
+.site-title {
+  border-bottom: 1px solid #e8e8e8;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.site-title img {
+  width: 30px;
+}
+
+.site-title img,
+.site-title span {
+  vertical-align: middle;
+}
+
+/* =====================
+   GRID (2 per row on PC)
+===================== */
+
+.song-list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+/* =====================
+   MOVIE CARD
+===================== */
+
+.album {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* =====================
+   POSTER
+===================== */
+
+.album img.cover {
+  width: 110px;
+  height: 165px;        /* poster ratio 2:3 */
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+  background: #eee;
+}
+
+/* =====================
+   INFO
+===================== */
+
+.album-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.album-info strong {
+  font-size: 16px;
+  font-weight: 700;
+  display: inline;
+  margin-bottom: 6px;
+}
+
+/* Metadata rows */
+.singer {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.45;
+  margin-bottom: 4px;
+}
+
+/* Notes / status */
+.singer em {
+  font-style: normal;
+  font-weight: 600;
+  color: #000;
+}
+
+/* =====================
+   PAGINATION
+===================== */
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+#jumpPage {
+  width: 60px;
+}
+
+#pageInfo {
+  font-weight: bold;
+}
+
+/* =====================
+   LOADER
+===================== */
+
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 5px solid #ccc;
+  border-top: 5px solid #272727;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 60px auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* =====================
+   MOBILE (still side-by-side)
+===================== */
+
+@media (max-width: 900px) {
+  .song-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+  }
+
+  input,
+  select {
+    padding: 6px;
+    margin: 0;
+    border: 2px solid #ccc;
+  }
+
+  button {
+    padding: 7px;
+    font-weight: 700;
+  }
+
+  .filter-grid > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .filter-grid input,
+  .filter-grid select,
+  .filter-grid button {
+    flex: 1 1 48%;
+    min-width: 0;
+  }
+
+  /* poster + details STILL side-by-side */
+  .album {
+    gap: 12px;
+  }
+
+  .album img.cover {
+    width: 95px;
+    height: 140px;
+  }
+}
